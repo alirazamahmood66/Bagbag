@@ -12,14 +12,17 @@
 }
 .navbar {
     display: flex;
-    padding: 10px 25px;
-    gap: 200px;
+    padding: 10px 0;
+    justify-content: space-around;
+    width: 100%;
 }
+
 .navbar-brand {
     margin-left: 20px;
     font-size: 35px;
     font-weight: 700;
     color: #000;
+    padding-left: 3%;
 }
 .navbar-nav .nav-link {
     font-size: 15px;
@@ -32,6 +35,12 @@
 .navbar-nav .nav-link:active {
     color: #b48a3d;
     transition: 0.2s ease;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.fa-shopping-bag{
+    font-size: 25px;
 }
 .dropdown-menu {
     border: none;
@@ -187,6 +196,69 @@
   font-size: 14px;
   opacity: 0.9;
 }
+/* From Uiverse.io by vamsidevendrakumar */ 
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+.location-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  .card-row{
+    margin-top: 10px;
+  }
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .location-card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    background-color: #6A2C70;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #6A2C70;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    background-color: #F08A5D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #F08A5D;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(180deg);
+  }
+  .location-col p{
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
 
 
 /* ----contact us----- */
