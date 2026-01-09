@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    padding-left: 3%;
+}
+.navbar-nav .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active {
+    color: #b48a3d;
+    transition: 0.2s ease;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.fa-shopping-bag{
+    font-size: 25px;
+}
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    padding: 10px 0;
+}
+.dropdown-item {
+    font-size: 14px;
+    padding: 8px 18px;
+    color: #333;
+    transition: 0.3s ease;
+}
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+    color: #b48a3d;
+}
+
+.SlingBags-container {
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(250, 240, 240);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.SlingBags-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.35);
+}
+.SlingBags-overlay h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.SlingBags-overlay p {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
