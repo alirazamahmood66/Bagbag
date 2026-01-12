@@ -58,15 +58,15 @@
     color: #b48a3d;
 }
 
-.Sling-Bags-container {
+.Mens-container {
     width: 100%;
     height: 40vh;
-    background-color:rgb(250, 240, 240);
+    background-image: url(bag\ photo\ 6.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.Sling-Bags-overlay {
+.Mens-overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,13 +74,13 @@
     height: 100%;
     background-color: rgba(0,0,0,0.35);
 }
-.Sling-Bags-overlay h1 {
+.Mens-overlay h1 {
     font-size: 40px;
     font-weight: 700;
-    color: #000;
+    color: white;
 }
-.Sling-Bags-overlay p {
+.Mens-overlay p {
     font-size: 16px;
-    color: #000;
+    color: white;
     text-align: center;
 }

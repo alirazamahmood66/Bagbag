@@ -58,7 +58,7 @@
     color: #b48a3d;
 }
 
-.Sling-Bags-container {
+.Hand-Bags-container {
     width: 100%;
     height: 40vh;
     background-color:rgb(250, 240, 240);
@@ -66,7 +66,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.Sling-Bags-overlay {
+.Hand-Bags-overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,12 +74,12 @@
     height: 100%;
     background-color: rgba(0,0,0,0.35);
 }
-.Sling-Bags-overlay h1 {
+.Hand-Bags-overlay h1 {
     font-size: 40px;
     font-weight: 700;
     color: #000;
 }
-.Sling-Bags-overlay p {
+.Hand-Bags-overlay p {
     font-size: 16px;
     color: #000;
     text-align: center;
