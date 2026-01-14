@@ -61,6 +61,7 @@
 .Travel-Bags-container {
     width: 100%;
     height: 40vh;
+    background-image: url(71QGmhEqZ+L._AC_SL1300_.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,8 +94,8 @@
     color: #333;
 }
 .prod-card{
-    width: 220px;
-    height: 300px;
+    width: 90%;
+    height: 40vh;
     background: #ffffff;
     border-radius: 18px;
     display: flex;
@@ -106,9 +107,9 @@
     overflow: hidden;
 }
 
-/* PRODUCT IMAGE */
 .prod-img{
-    height: 90%;
+    height: 100%;
+    width: 80%;
     position: absolute;
     top: 10px;
     transition: all 0.3s ease;
