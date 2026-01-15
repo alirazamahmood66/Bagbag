@@ -413,7 +413,6 @@ body {
     color: #fff;
     border-top: 1px solid rgba(255,255,255,0.2);
 }
-/* MEGA DROPDOWN */
 .mega-dropdown{
     width: 100%;
     height: 50vh;
@@ -423,7 +422,6 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* ITEM CARD */
 .mega-item{
     display: block;
     text-align: center;
@@ -452,7 +450,6 @@ body {
     margin: 0;
 }
 
-/* HOVER EFFECT */
 .mega-item:hover{
     transform: translateY(-5px);
 }
@@ -461,4 +458,3 @@ body {
     color: #b48a3d;
 }
 
-/* MOBILE F*
